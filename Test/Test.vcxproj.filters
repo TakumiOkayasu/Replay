@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{5da04086-a475-4c41-aa13-89d9f61e951a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{cccfa2c2-2006-4bb2-b907-443bd4f92e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\Lib">
+      <UniqueIdentifier>{8e600fc9-7cf5-4af6-b991-276399f408f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\interface">
+      <UniqueIdentifier>{4007d109-5bc5-4091-bc4a-d0c266f5748d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\new">
+      <UniqueIdentifier>{fa679dc4-7783-482a-85f0-6d4c5bbd3d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\new\interface">
+      <UniqueIdentifier>{44982d49-3334-401d-8f2e-8186377818ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Replay\src\lib\LibImpl\DxJoypad.cpp">
+      <Filter>other\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Replay\src\lib\LibImpl\DxKeyboard.cpp">
+      <Filter>other\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Replay\src\lib\LibImpl\GettableDxInputDevice.cpp">
+      <Filter>other\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputConverter.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Replay\src\lib\KeyInputCount.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Replay\src\lib\LibImpl\DxJoypad.h">
+      <Filter>other\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\LibImpl\DxKeyboard.h">
+      <Filter>other\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\LibImpl\GettableDxInputDevice.h">
+      <Filter>other\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\VirtualController.h">
+      <Filter>other\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\Joypad.h">
+      <Filter>other\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\Keyboard.h">
+      <Filter>other\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\GettableInputDevice.h">
+      <Filter>other\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\SystemContext.h">
+      <Filter>other\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InputConverter.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneContext.h">
+      <Filter>tests\new\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\Debug.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneChangeListener.h">
+      <Filter>tests\new\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneData.h">
+      <Filter>tests\new\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneChangeTest.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Replay\src\lib\KeyInputCount.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\WinMain.cpp" />
+    <ClCompile Include="src\App.cpp" />
+    <ClCompile Include="src\lib\File.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\LibImpl\DxJoypad.cpp">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\LibImpl\DxKeyboard.cpp">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\LibImpl\GettableDxInputDevice.cpp">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\game\Game.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\game\Player.cpp">
+      <Filter>Scene\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\game\PlayerMover.cpp">
+      <Filter>Scene\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\keyconfig\KeyConfig.cpp">
+      <Filter>Scene\KeyConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\title\Title.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\replay\ReplayPlayer.cpp">
+      <Filter>Scene\Replay\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\replay\ReplayRecorder.cpp">
+      <Filter>Scene\Replay\recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\replay\ReplayFileReader.cpp">
+      <Filter>Scene\Replay\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\SceneMgr.cpp">
+      <Filter>Scene\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\KeyInputCount.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h" />
+    <ClInclude Include="src\GettableInputDevice.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mover.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VirtualController.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Debug.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\File.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\FileReader.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Joypad.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Keyboard.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Shape.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Utility.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\LibImpl\DxJoypad.h">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\LibImpl\DxKeyboard.h">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\LibImpl\GettableDxInputDevice.h">
+      <Filter>Lib\Lib_Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\Game.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\GameContext.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\Player.h">
+      <Filter>Scene\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\PlayerContext.h">
+      <Filter>Scene\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\PlayerMover.h">
+      <Filter>Scene\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\game\PlayerPrm.h">
+      <Filter>Scene\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\keyconfig\KeyConfig.h">
+      <Filter>Scene\KeyConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\replay\ReplayData.h">
+      <Filter>Scene\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\title\Title.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\BaseScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\replay\ReplayPlayer.h">
+      <Filter>Scene\Replay\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\replay\ReplayRecorder.h">
+      <Filter>Scene\Replay\recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\replay\ReplayFileReader.h">
+      <Filter>Scene\Replay\reader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\GameContext.h">
+      <Filter>Interface\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\SceneContext.h">
+      <Filter>Interface\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SystemContext.h">
+      <Filter>Interface\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\SceneChangeListener.h">
+      <Filter>Interface\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OnInputListener.h">
+      <Filter>Interface\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\SceneMgr.h">
+      <Filter>Scene\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\SceneData.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\KeyInputCount.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0d8e6e19-a1ba-43b0-92c2-c86b2aba1601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{7b4d99ee-a655-499e-ace3-c7f6a6cf21bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\KeyConfig">
+      <UniqueIdentifier>{c10ab6d6-773a-450a-9417-da0a361d0938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{bddf482e-f6fd-4e33-9494-f65de18b0172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Lib_Impl">
+      <UniqueIdentifier>{519bd45e-5206-430c-ba6b-7f73411d06c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Replay">
+      <UniqueIdentifier>{97b62b9e-03d1-4fa9-9c1f-3d3f775428be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{7584ca13-27a4-454a-a26d-2bb124330d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{357f407a-535b-4d19-a2b8-1da3a0d3a5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game\Player">
+      <UniqueIdentifier>{90d5b0c6-dcc0-424d-8547-c01a3329ea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Replay\player">
+      <UniqueIdentifier>{38cd84ab-3445-46a6-b6cd-6ca257e23651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Replay\recorder">
+      <UniqueIdentifier>{17d9b7aa-9459-4d2d-8a2a-f994d65bd267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Replay\reader">
+      <UniqueIdentifier>{c27c8e1c-8ec5-4937-89ca-2f8b207b1617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Context">
+      <UniqueIdentifier>{fcbb1948-af88-4223-bfc1-25411ea6b583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Listener">
+      <UniqueIdentifier>{e7c3c425-56bf-4139-8f7a-685b596149c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Mgr">
+      <UniqueIdentifier>{f7e9b183-857c-4318-abce-7ada83578f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Replay\scene">
+      <UniqueIdentifier>{dc376ebf-35d5-4055-913a-bcf2d633ecb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
